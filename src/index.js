@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
         comitions[customId].heartsAmount++
       }
     }
-    comitions[customId].count+=10;
+    comitions[customId].count+=2;
     io.emit('sumCounter', comitions);
   });
 
